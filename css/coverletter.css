@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'woowa';
+    src: url('..\font\BMDOHYEON_ttf.woff') format('woff');
+}
+
+.intro {
+    display: flex;
+}
+
+.introImage {
+    flex: 0;
+}
+
+.introMessage {
+    margin-left: 30px;
+    font-family: 'woowa';
+    font-size: 20pt;
+    font-weight: bold;
+    flex: 1;
+}
+
+.movie {
+    display: flex;
+    float: left;
+    font-size: 20pt;
+}
+
+
+.moviePoster {
+    margin: 15px;
+    text-align: center;
+}
+
+.guestBook {
+    clear: both;
+}
+
+.guest {
+    font-size: 20pt;
+}
+
+.checkbox {
+    zoom: 2.0;
+}
+
+.button {
+    zoom: 2.0;
+}
