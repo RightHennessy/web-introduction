@@ -1,9 +1,9 @@
-@font-face {
-    font-family: 'woowa';
-    src: url('..\font\BMDOHYEON_ttf.woff') format('woff');
+.header {
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 .intro {
+    font-family: 'Do Hyeon', sans-serif;
     display: flex;
 }
 
@@ -13,16 +13,15 @@
 
 .introMessage {
     margin-left: 30px;
-    font-family: 'woowa';
-    font-size: 20pt;
-    font-weight: bold;
+    font-size: 23pt;
     flex: 1;
 }
 
 .movie {
     display: flex;
     float: left;
-    font-size: 20pt;
+    font-size: 23pt;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 
@@ -33,16 +32,18 @@
 
 .guestBook {
     clear: both;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 .guest {
-    font-size: 20pt;
+    font-size: 23pt;
 }
 
-.checkbox {
+.checkmovie {
     zoom: 2.0;
 }
 
 .button {
     zoom: 2.0;
+    font-family: 'Do Hyeon', sans-serif;
 }
