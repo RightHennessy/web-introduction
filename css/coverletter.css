@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(194, 243, 227);
+    background-color: rgb(214, 243, 233);
 }
 
 .header {
@@ -22,7 +22,8 @@ body {
 }
 
 table {
-    border-top: 5px solid rgb(82, 136, 118);
+    /* border-top: 5px solid rgb(82, 136, 118); */
+    border-top: 5px solid azure;
     font-size: 23pt;
     font-family: 'Do Hyeon', sans-serif;
     text-align: center;
@@ -31,8 +32,8 @@ table {
 }
 
 td {
-    border-bottom: 5px solid rgb(82, 136, 118);
-    border-left: 5px solid rgb(82, 136, 118);
+    border-bottom: 5px solid azure;
+    border-left: 5px solid azure;
     padding: 10px;
   }
 
@@ -41,7 +42,8 @@ td:first-child {
 }
 
 .guestBook {
-    clear: both;
+    flex: 2;
+    margin-left: 30px;
     font-family: 'Do Hyeon', sans-serif;
 }
 
@@ -51,11 +53,15 @@ td:first-child {
 
 .checkmovie {
     zoom: 2.0;
-    accent-color: black;
+    accent-color: black;    
 }
 
 .button {
     zoom: 2.2;
     font-family: 'Do Hyeon', sans-serif;
     background-color: rgb(213, 250, 255);
+}
+
+.result {
+    font-size: 23pt;
 }
