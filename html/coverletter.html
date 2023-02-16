@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <script src="..\js\coverletter.js"></script>
   <link rel="stylesheet" href="..\css\coverletter.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,7 +11,7 @@
   <title>💗 링링 💗</title>
 </head>
 <body>
-  <h1 class="header"> 📞 RingRing Can I Hit Your Phone ?</h1>
+  <h1 class="header"> 📞 RingRing Can I Hit You Up ?</h1>
   
   <br>
 
@@ -64,18 +65,18 @@
   <div class ="guestBook"> 
     <br>
     <h1> 💌 방명록 </h1>
-    <div class = "guest">
-      <p> 이름 : <input type = "text" style="zoom: 2.0;">
+    <form class = "guest">
+      <p> 이름 : <input type = "text" id="guestName" value="" style="zoom: 2.0;">
         &nbsp; &nbsp;
-        <button class="button">등록</button> 
-        <button class="button">취소</button>
+        <button type ="button" class = "button" id="btnRegister">등록</button> 
+        <button type = "reset" class = "button" id="btnCancel">취소</button>
       </p>
-      <input type="checkbox" class="checkmovie">터미네이터
-      <input type="checkbox" class="checkmovie">다크나이트
-      <input type="checkbox" class="checkmovie">트랜스포머
-      <input type="checkbox" class="checkmovie">위대한쇼맨 
-      <input type="checkbox" class="checkmovie">맨 인 블랙
-    </div>
+      <input type="checkbox" class="checkmovie" name="movie" value="terminator">터미네이터
+      <input type="checkbox" class="checkmovie" name="movie" value="darknight">다크나이트
+      <input type="checkbox" class="checkmovie" name="movie" value="transformers">트랜스포머
+      <input type="checkbox" class="checkmovie" name="movie" value="thegreatestshowman">위대한쇼맨 
+      <input type="checkbox" class="checkmovie" name="movie" value="meninblack">맨 인 블랙
+    </form>
   </div>
 </body>
 </html>
