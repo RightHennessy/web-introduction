@@ -34,49 +34,60 @@
   <br>
 
   <h1 class="header">🎞 인생 영화 BEST 5</h1>
-  <div class ="movie">
-    <div class = "moviePoster">
-      <img src="..\images\terminator_poster.jpg" height="300">
-      <br>
+
+  <table class = "movieTable">
+      <tr>
+        <td>
+          <img src="..\images\terminator_poster.jpg" height="300">
+        </td>
+        <td>
+          <img src="..\images\darknight_poster.jpg" height="300">
+        </td>
+        <td>
+          <img src="..\images\transformers_poster.jpg" height="300">
+        </td>
+        <td>
+          <img src="..\images\greatestshowman_poster.jpg" height="300">
+        </td>
+        <td>
+          <img src="..\images\mib_poster.jpg" height="300">
+        </td>
+      </tr>
+      <tr>
+        <td>
       <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=10028#" target="_blank"> 터미네이터 </a>
-    </div>
-    <div class = "moviePoster">
-      <img src="..\images\darknight_poster.jpg" height="300">
-      <br>
+        </td>
+        <td>
       <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=62586" target="_blank"> 다크나이트 </a>
-    </div>
-    <div class = "moviePoster">
-      <img src="..\images\transformers_poster.jpg" height="300">
-      <br>
+        </td>
+        <td>
       <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=61521" target="_blank"> 트랜스포머 </a>
-    </div>
-    <div class = "moviePoster">
-      <img src="..\images\greatestshowman_poster.jpg" height="300">
-      <br>
+        </td>
+        <td>
       <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=106360" target="_blank"> 위대한 쇼맨</a>
-    </div>
-    <div class = "moviePoster">
-      <img src="..\images\mib_poster.jpg" height="300">
-      <br>
+        </td>
+        <td>
       <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=18153" target="_blank"> 맨 인 블랙</a>
-    </div>
-  </div>
+        </td>
+      </tr>
+  </table>
 
   <div class ="guestBook"> 
     <br>
     <h1> 💌 방명록 </h1>
-    <form class = "guest">
-      <p> 이름 : <input type = "text" id="guestName" value="" style="zoom: 2.0;">
+    <div class = "guest">
+      <p > 이름 : <input type = "text" id="guestName" value="" style="zoom: 2.0;border: none;background-color: azure;">
         &nbsp; &nbsp;
         <button type ="button" class = "button" id="btnRegister">등록</button> 
         <button type = "reset" class = "button" id="btnCancel">취소</button>
       </p>
-      <input type="checkbox" class="checkmovie" name="movie" value="terminator">터미네이터
+      <p> 본인 취향의 영화를 선택해 주세요 ~ 😊</p>
+      <input type="checkbox" class="checkmovie" name="movie" value="terminator" style="border: none;background-color: azure;">터미네이터
       <input type="checkbox" class="checkmovie" name="movie" value="darknight">다크나이트
       <input type="checkbox" class="checkmovie" name="movie" value="transformers">트랜스포머
       <input type="checkbox" class="checkmovie" name="movie" value="thegreatestshowman">위대한쇼맨 
       <input type="checkbox" class="checkmovie" name="movie" value="meninblack">맨 인 블랙
-    </form>
+    </div>
   </div>
 </body>
 </html>

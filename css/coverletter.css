@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(194, 243, 227);
+}
+
 .header {
     font-family: 'Do Hyeon', sans-serif;
 }
@@ -17,17 +21,23 @@
     flex: 1;
 }
 
-.movie {
-    display: flex;
-    float: left;
+table {
+    border-top: 5px solid rgb(82, 136, 118);
     font-size: 23pt;
     font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    margin: 15px;
+    border-collapse: collapse;
 }
 
+td {
+    border-bottom: 5px solid rgb(82, 136, 118);
+    border-left: 5px solid rgb(82, 136, 118);
+    padding: 10px;
+  }
 
-.moviePoster {
-    margin: 15px;
-    text-align: center;
+td:first-child {
+    border-left: 0px;
 }
 
 .guestBook {
@@ -41,9 +51,11 @@
 
 .checkmovie {
     zoom: 2.0;
+    accent-color: black;
 }
 
 .button {
-    zoom: 2.0;
+    zoom: 2.2;
     font-family: 'Do Hyeon', sans-serif;
+    background-color: rgb(213, 250, 255);
 }
